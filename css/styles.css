@@ -260,7 +260,6 @@ body {
   background-color: #f4f4fd;
   margin-bottom: 8px;
   border: 1px solid #8e8f99;
-  border-radius: 5px;
 }
 
 .strategy-list-icon svg {
@@ -332,7 +331,7 @@ body {
 }
 
 .our-team-link svg {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .list-el {
