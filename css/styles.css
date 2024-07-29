@@ -104,7 +104,6 @@ body {
   position: relative;
   display: block;
   padding-block: 24px;
-  color: #404bbf;
 }
 
 .header-address-list {
@@ -131,7 +130,13 @@ body {
   color: #404bbf;
 }
 
-.link-nav:active::after {
+.header-list-item > .link-nav {
+  display: block;
+  color: #404bbf;
+  position: relative;
+}
+
+.header-list-item > .link-nav:after {
   content: "";
   position: absolute;
   left: 0;
