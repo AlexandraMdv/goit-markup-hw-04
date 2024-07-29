@@ -97,6 +97,9 @@ body {
   gap: 40px;
 }
 
+.header-list-item {
+}
+
 .link-nav {
   position: relative;
   display: block;
@@ -130,11 +133,11 @@ body {
 
 .link-nav:active::after {
   content: "";
-  width: 100%;
-  height: 4px;
   position: absolute;
   left: 0;
   bottom: -1px;
+  width: 100%;
+  height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
   /* border-bottom: 1px solid #404bbf; */
@@ -220,17 +223,12 @@ body {
   /* visibility: hidden; */
 }
 
-.section-strategy-container {
+.strategy-list-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 112px;
   border-radius: 4px;
-}
-
-.strategy-list-icon svg {
-  width: 64px;
-  height: 64px;
 }
 
 .section-stratedy-title,
@@ -328,8 +326,7 @@ body {
   background-color: #404bbf;
 }
 
-.our-team-link svg,
-.social-link svg {
+.our-team-link svg {
   fill: #fff;
 }
 
@@ -420,7 +417,7 @@ body {
   padding: 40px 32px;
 }
 
-.our-portfolio-image:hover .overlay {
+.our-portfolio-list-item:hover .overlay {
   transform: translateY(0%);
 }
 
@@ -454,7 +451,7 @@ body {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .container-logo-text {
